@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;700&family=Fira+Sans&family=Montserrat&family=Roboto+Mono:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    background-color: slateblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px;
+}
+
+#txt {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 1.3rem;
+    box-shadow: 0px 0px 2px gray;
+    display: block;
+}
+
+.list {
+    position: relative;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.list li {
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+    margin-top: 10px;
+}
+
+.fa-solid {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
